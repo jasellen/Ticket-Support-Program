@@ -1,0 +1,7 @@
+print('Hello, please answer a few questions about your issue\n')
+date = input('When did the issue first occur?\n')
+name = input('What is your name?\n')
+severity = input('On a scale of 1-10, how severe is the issue?\n')
+description = input('Please provide a brief description of the issue:\n')
+contact = input('Please provide email/phone number for us to reach you:\n')
+print('\nTo whom it may concern,\n\nOn', date, name, 'experienced an issue regarding', description, '\n\nThey have reported a severity of', severity, 'on a scale of 1-10. Please contact them at', contact)
